@@ -19,7 +19,7 @@ audio_data='./audio/';
 
 %path where the algorithm saves the resulting features in hdf5 format, if
 %the absolute path does not exist, the algorithm creates it
-
+mkdir('./features')
 feats_data = './features/';
 %% create a list with audio files path as shown in All_audio.lst
 % just put in one column the name of the audio file and in front of it, in a second column, the name
